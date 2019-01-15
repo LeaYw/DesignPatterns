@@ -2,7 +2,7 @@ package com.leayw.patterns.behavior.template_method;
 
 abstract public class HouseTemplate {
 
-    public void buildHouse() {
+    public final void buildHouse() {
         buildFoundation();
         buildPillars();
         buildWalls();
